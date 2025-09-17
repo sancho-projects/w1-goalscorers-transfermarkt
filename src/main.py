@@ -1,13 +1,12 @@
 import tkinter as tk
 from tkinter import messagebox
 from visualization import plot_distribucion, plot_distribucion_acumulada, plot_distribucion_acumulada_interactiva
-from data.config import first_season, last_season
+from data.config import first_season, last_season, min_goles
 from control import obtener_datos, export_list_to_csv
 
 # Variables globales
 distribuciones = []
 jugadores = []
-min_goles = 10
 
 def on_scraping_click():
     global distribuciones, jugadores, first_season, last_season, min_goles

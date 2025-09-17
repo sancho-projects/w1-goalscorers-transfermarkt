@@ -4,3 +4,4 @@ BASE_URL = (
 
 first_season = 2010
 last_season = 2025
+min_goles = 10
