@@ -21,3 +21,4 @@ def calcular_distribucion(df: pd.DataFrame) -> pd.DataFrame:
 
 def get_jugadores(df: pd.DataFrame) -> pd.DataFrame:
     return df.sort_values(by="Goles", ascending=True)[["Jugadores", "Goles"]].copy()
+
